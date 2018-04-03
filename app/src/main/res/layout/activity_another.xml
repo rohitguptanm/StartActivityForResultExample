@@ -3,13 +3,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center">
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:text="SECOND ACTIVITY"
+        android:textColor="#0000ff"
+        android:layout_marginTop="20dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 
     <EditText
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
         android:id="@+id/et_name"
-        android:layout_margin="5dp"
         android:hint="Enter name"
+        android:textColor="#ff0000"
         android:imeOptions="actionDone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
